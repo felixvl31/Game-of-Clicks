@@ -13,7 +13,7 @@ const Nav = props => (
     </ul>
       <NavStatus score={props.score} topScore={props.topScore} />
   </nav>
-    <header className="header">
+    <header className="header" style={{ backgroundImage: `url("./assets/images/pattern.png")` }}>>
     <h1>Click Game!</h1>
     <h2>
       Click on an character to save,<br/> if you click twice on the same character...Game Over!!
