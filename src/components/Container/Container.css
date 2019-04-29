@@ -1,0 +1,33 @@
+.container {
+  background-color:#105878;
+}
+
+@font-face {
+  font-family: "Game of Thrones";
+   src: url("../../fonts/Game of Thrones.ttf") format("truetype");
+}
+
+.footer {
+  height: 40px;
+  position: relative;
+  color: white;
+  overflow: auto;
+  font-family:"Game of Thrones";
+}
+
+.footer > .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#c32536;
+  padding: 8px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.footer .bottom a{
+  text-decoration: none;
+  color: red;
+}

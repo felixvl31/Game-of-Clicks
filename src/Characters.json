@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/characters/Arya.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "/assets/characters/Bran.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "/assets/characters/Cersei.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "/assets/characters/Daenerys.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "/assets/characters/Jaime.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "/assets/characters/Jon.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "/assets/characters/NightKing.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "/assets/characters/Sam.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "/assets/characters/Sansa.jpg",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "/assets/characters/Tyrion.jpg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "/assets/characters/Brienne.jpg",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "/assets/characters/Euron.jpg",
+    "clicked": false
+  },
+  {
+    "id": 13,
+    "image": "/assets/characters/Hound.jpg",
+    "clicked": false
+  },
+  {
+    "id": 14,
+    "image": "/assets/characters/Missandei.jpg",
+    "clicked": false
+  },
+  {
+    "id": 15,
+    "image": "/assets/characters/Varys.jpg",
+    "clicked": false
+  },
+  {
+    "id": 16,
+    "image": "/assets/characters/Davos.jpg",
+    "clicked": false
+  }
+]
