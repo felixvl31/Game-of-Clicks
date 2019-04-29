@@ -35,7 +35,7 @@ class NavStatus extends React.Component {
 
   render() {
     return (
-      <span className={`col-12 col-md-3 status ${this.state.animation ? this.state.status : ""}`}>
+      <span className={`col-12 col-md-4 status ${this.state.animation ? this.state.status : ""}`}>
         {this.renderStatus()}
       </span>
     );

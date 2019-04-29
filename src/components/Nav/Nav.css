@@ -4,26 +4,31 @@
 }
 
 .nav {
-  background: #c32536;
+  background: #533A71;
   min-height: 70px;
   position: fixed;
-  width: 110%;
+  top:0;
+  left:0;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  color: white;
+  color: #FFFDFD;
   text-align: center;
   z-index:10;
+  width:105%;
 }
 
 .title,.status, .points{
   text-decoration: none;
-  color: white;
+  color: #FFFDFD;
   font-weight: 900;
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .title{
-  font-size:2rem;
   font-family:"Game of Thrones";
+  text-shadow: -2px 0 #105878, 0 2px #105878, 2px 0 #105878, 0 -2px #105878;
+}
+.points{
+  font-size:1.5rem;
 }
 
 
@@ -31,13 +36,13 @@
   background-repeat: repeat;
   background-position: center;
   background-size: contain;
-  margin: 0 auto 15px;
-  color:white;
+  color:#FFFDFD;
   height: 50px;
   padding: 100px 20px; 
   padding-bottom: 210px;
   text-align: center;
-  text-shadow: -2px 0 #c32536, 0 2px #c32536, 2px 0 #c32536, 0 -2px #c32536;
+  text-shadow: -2px 0 #105878, 0 2px #105878, 2px 0 #105878, 0 -2px #105878;
+  border-radius:20px;
 
 }
 
@@ -55,6 +60,7 @@
 @media (max-width: 600px) {
   .title,.status, .points{
     margin:5px;
+    font-size:1.5rem;
   }
   .header{
     padding-bottom: 250px;

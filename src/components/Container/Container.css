@@ -10,9 +10,10 @@
 .footer {
   height: 40px;
   position: relative;
-  color: white;
+  color: #FFFDFD;
   overflow: auto;
   font-family:"Game of Thrones";
+  border-radius:20px 20px 0 0;
 }
 
 .footer > .bottom {
@@ -20,7 +21,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background:#c32536;
+  background:#533A71;
   padding: 8px;
   font-weight: 600;
   text-align: center;
@@ -29,5 +30,5 @@
 
 .footer .bottom a{
   text-decoration: none;
-  color: red;
+  color: #533A71;
 }

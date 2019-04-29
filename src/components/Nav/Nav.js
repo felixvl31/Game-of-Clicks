@@ -7,7 +7,7 @@ const Nav = props => (
   <div className="row align-items-center nav">
     <span className="col-12 col-md-4 title" href="/">Game of Clicks</span>
     <NavStatus score={props.score} topScore={props.topScore} />
-    <span className="col-12 col-md-5 points">Points: {props.score} | Top Score: {props.topScore}</span>
+    <span className="col-12 col-md-4 points">Points: {props.score} | Top Score: {props.topScore}</span>
   </div>
     <header className="header" style={{ backgroundImage: `url("./assets/images/pattern.png")` }}>
     <h1>Click Game!</h1>
