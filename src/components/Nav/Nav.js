@@ -4,16 +4,12 @@ import "./Nav.css";
 
 const Nav = props => (
   <>
-  <nav className="navbar navbar-expand justify-content-between">
-  <a className="nav-brand" href="/">Game of Clicks</a>
-    <ul className="navbar-nav">
-      <li className="nav-item">
-        Points: {props.score} | Top Score: {props.topScore}
-      </li>
-    </ul>
-      <NavStatus score={props.score} topScore={props.topScore} />
-  </nav>
-    <header className="header" style={{ backgroundImage: `url("./assets/images/pattern.png")` }}>>
+  <div className="row align-items-center nav">
+    <span className="col-12 col-md-4 title" href="/">Game of Clicks</span>
+    <NavStatus score={props.score} topScore={props.topScore} />
+    <span className="col-12 col-md-5 points">Points: {props.score} | Top Score: {props.topScore}</span>
+  </div>
+    <header className="header" style={{ backgroundImage: `url("./assets/images/pattern.png")` }}>
     <h1>Click Game!</h1>
     <h2>
       Click on an character to save,<br/> if you click twice on the same character...Game Over!!

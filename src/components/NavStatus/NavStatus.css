@@ -1,8 +1,8 @@
-li.right {
+.right {
   animation: 1s right;
 }
 
-li.wrong {
+.wrong {
   animation: 1s wrong;
 }
 
