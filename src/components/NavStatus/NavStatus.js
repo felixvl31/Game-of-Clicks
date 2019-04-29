@@ -3,11 +3,12 @@ import "./NavStatus.css";
 
 class NavStatus extends React.Component {
   state = {
-    status: ""
+    status: "",
+    animation: false
   };
 
   componentWillReceiveProps({ score, topScore }) {
-    const newState = { };
+    const newState = { animation: true };
     if (score === 0 && topScore === 0) {
       newState.status = "";
     } else if (score === 0 && topScore > 0) {
@@ -15,7 +16,9 @@ class NavStatus extends React.Component {
     } else {
       newState.status = "right";
     }
-    
+    this.setState(newState, () =>
+      setTimeout(() => this.setState({ animation: false }), 500)
+    );
   }
 
   renderStatus = () => {
@@ -32,7 +35,7 @@ class NavStatus extends React.Component {
 
   render() {
     return (
-      <li className={this.state.status}>
+      <li className={`message ${this.state.animation ? this.state.status : ""}`}>
         {this.renderStatus()}
       </li>
     );

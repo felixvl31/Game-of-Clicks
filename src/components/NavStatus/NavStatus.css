@@ -1,9 +1,9 @@
-.navbar .right {
-  animation: 1.5s right;
+li.right {
+  animation: 1s right;
 }
 
-.navbar .wrong {
-  animation: 1.5s wrong;
+li.wrong {
+  animation: 1s wrong;
 }
 
 @keyframes right{
