@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e04bce997f86efa04d1395f34b8be40",
+    "revision": "b9b657631ef477c5d20b1521cf108366",
     "url": "/Game-of-Clicks/index.html"
   },
   {
-    "revision": "dc57b954266499ea8902",
-    "url": "/Game-of-Clicks/static/css/main.238eaf92.chunk.css"
+    "revision": "32483f50760cc01b321d",
+    "url": "/Game-of-Clicks/static/css/main.a690f453.chunk.css"
   },
   {
     "revision": "8b28b04b5b06edd2dc22",
     "url": "/Game-of-Clicks/static/js/2.dc948b19.chunk.js"
   },
   {
-    "revision": "dc57b954266499ea8902",
-    "url": "/Game-of-Clicks/static/js/main.132513a6.chunk.js"
+    "revision": "32483f50760cc01b321d",
+    "url": "/Game-of-Clicks/static/js/main.4852d042.chunk.js"
   },
   {
     "revision": "3313b5ba536593f64d4b",
