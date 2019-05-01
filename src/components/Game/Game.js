@@ -54,6 +54,7 @@ class Game extends React.Component {
     });
     guessed ? this.handleRight(nextCharacters) : this.handleWrong(nextCharacters);
   };
+  
 
   render() {
     return (
